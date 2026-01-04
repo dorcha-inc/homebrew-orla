@@ -3,7 +3,7 @@ cask "orla" do
   name "orla"
   desc "A dead-simple unix tool for lightweight agents"
   homepage "https://github.com/dorcha-inc/orla"
-  version "0.3.13"
+  version "0.3.14"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "orla" do
   on_macos do
     on_intel do
       url "https://github.com/dorcha-inc/orla/releases/download/v#{version}/orla-darwin-amd64.tar.gz"
-      sha256 "a640bff90e8d5ce1c6aa4f584f3389e7b74b8098ec85a4311f50eea1a0039ad8"
+      sha256 "f8c8ca1a1abd60866674624aa65179a81570dea380a102b24aaa16b5b85f3b14"
     end
     on_arm do
       url "https://github.com/dorcha-inc/orla/releases/download/v#{version}/orla-darwin-arm64.tar.gz"
-      sha256 "8a4c18eac7369930145b7f8414e403e2385b8228388452a3e4ff43ad116412fb"
+      sha256 "d345658df8c086c2a14e1647045fdad67e5f2778ebab061bd3f0dee48b925d39"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dorcha-inc/orla/releases/download/v#{version}/orla-linux-amd64.tar.gz"
-      sha256 "d084caf95aab84b5a12496f00b5c16926bbca430078cb974d4b0080b4427cd7a"
+      sha256 "48527ab3a449daf8babab4aa405a0794cb93627affd20cac93d54417bd6371db"
     end
     on_arm do
       url "https://github.com/dorcha-inc/orla/releases/download/v#{version}/orla-linux-arm64.tar.gz"
-      sha256 "c37a3e801813bd58be0b58a996427284f1b9380f9cabc1850389d0f074dc1474"
+      sha256 "dd36877a3b3c60bb42766a74306d18da1c17eeb4273c37fe9bd820cc98064bf2"
     end
   end
 
