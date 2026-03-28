@@ -3,7 +3,7 @@ cask "orla" do
   name "orla"
   desc "A dead-simple unix tool for lightweight agents"
   homepage "https://github.com/harvard-cns/orla"
-  version "1.2.10"
+  version "1.2.11"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "orla" do
   on_macos do
     on_intel do
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-darwin-amd64.tar.gz"
-      sha256 "82f05b2313680d99ea65542b05107da7328ee049e89674caadde3ebd38b34f05"
+      sha256 "e0bb55be593e4639b0e27226f5df18f57bdbffc728c31024c9911b041dfcc363"
     end
     on_arm do
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-darwin-arm64.tar.gz"
-      sha256 "935de5e56791486476ea021d5faab39fd94a31348858e5c37448a0a74130e1ab"
+      sha256 "2fd6bd4203a2e486aae1ecaf9b230eaa9dbb583547a8f29e71f8fbd5e229959b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-linux-amd64.tar.gz"
-      sha256 "507385ea6fb50f085f20fb20b4e8a2a356d33dda005b88f9346c7d77d08057ab"
+      sha256 "71d77ae597b462106bffe91a0fd8f680c8d3c3517d1f88ea58d8ea1c062d819b"
     end
     on_arm do
       url "https://github.com/harvard-cns/orla/releases/download/v#{version}/orla-linux-arm64.tar.gz"
-      sha256 "80d6c0c971f63a1ba438ab39395162a1607f064d453ce2133b6e60cfe87acf0f"
+      sha256 "18b024417a82af0b45c43b2c6732ecae068ab355ee31c9f88c8e73bc1761f5ef"
     end
   end
 
